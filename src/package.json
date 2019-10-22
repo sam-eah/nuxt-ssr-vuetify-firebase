@@ -1,0 +1,17 @@
+{
+  "name": "nuxt-ssr",
+  "version": "1.0.0",
+  "description": "My funkadelic Nuxt.js project",
+  "author": "sam-eah",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build && del ..\\public\\* /Q && xcopy ..\\functions\\nuxt\\dist\\client ..\\public\\ /e /y && xcopy static\\* ..\\public\\ /e /y",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {}
+}
