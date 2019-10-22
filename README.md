@@ -213,7 +213,7 @@ $ yarn --cwd functions add nuxt-start --ignore-engines
 # Deploy
 (The things we have to do before each deployment)
 ## 1. Install functions modules
-We have to run this command everytime we add a dependency/devDependency or change the file `/functions/package.json`  
+We have to run this command everytime we add a dependency/devDependency  
 (You don't need to do it after adding nuxt-start, since it will be done already)
 ```console
 $ yarn --cwd functions --ignore-engines
