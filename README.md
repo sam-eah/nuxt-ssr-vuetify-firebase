@@ -34,7 +34,7 @@ Afterwards, let's make sure dev mode is working
 $ yarn --cwd src/ dev
 ```
 *On linux you may have to use `sudo` everytime you use `yarn`.*  
-Once you made sure everything is fine, close the local server (`ctrl + c`)
+Once we made sure everything is fine, we can close the local server (`ctrl + c`)
 
 ## 2. Setup Firebase
 Install firebase-tools if you haven't already
@@ -45,7 +45,7 @@ Login if you are not connected
 ```console
 $ firebase login
 ```
-Then run firebase cli, you will need Functions and Hosting
+Then let's run firebase cli, we will need Functions and Hosting
 ```console
 $ firebase init
 
