@@ -1,5 +1,5 @@
 # nuxt-ssr
-Nuxt (Vue 2 + Vue Router + Vuex + Vue Server Renderer + vue-meta) app in Universal mode (SSR) with Firebase hosting
+Nuxt (Vue 2 + Vue Router + Vuex + Vue Server Renderer + vue-meta) app in Universal mode (server side rendering) with Firebase hosting
 
 # Requirements
 - A Firebase project
